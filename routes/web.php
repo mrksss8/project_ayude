@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing_pages.index');
 });
 
 Auth::routes();
@@ -29,3 +29,6 @@ Route::middleware('auth')->group(function () {
     Route::get('profile', [\App\Http\Controllers\ProfileController::class, 'show'])->name('profile.show');
     Route::put('profile', [\App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
 });
+
+// Landing Page Navigator
+Route::get('/{page}', [App\Http\Controllers\NavController::class, 'navigate'])->name('navigate');

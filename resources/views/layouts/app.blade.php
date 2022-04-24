@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Ayude - Dashboard</title>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
@@ -14,7 +14,7 @@
     @yield('custom_styles')
 
 </head>
-<body class="theme-dark">
+<body id="mainBody">
     <div class="page">
         <div class="sticky-top">
 			<header class="navbar navbar-expand-md navbar-light sticky-top d-print-none">
@@ -28,7 +28,6 @@
 						</a>
 					</h1>
 					<div class="navbar-nav flex-row order-md-last">
-
 						@auth
 						<div class="nav-item dropdown">
 							<a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown" aria-label="Open user menu">
@@ -99,6 +98,7 @@
 
     <!-- Core plugin JavaScript-->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/darkLightToggle.js') }}"></script>
 
     <!-- Page level custom scripts -->
     @yield('custom_scripts')

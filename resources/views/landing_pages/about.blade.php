@@ -1,7 +1,7 @@
 @extends('welcome')
 
 @section('content')
-    <div class="hero-wrap" style="background-image: url({{ asset('images/bg_7.jpg') }});" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap" style="background-image: url('images/bg_7.jpg');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -19,7 +19,9 @@
         <div class="container">
             <div class="row d-flex">
                 <div class="col-md-6 d-flex ftco-animate">
+
                     <div class="img img-about align-self-stretch" style="background-image: url(https://www.ayude.be/wp-content/uploads/2021/05/FB_IMG_1620086337227_edit_349678056188307-1.jpg); width: 100%;"></div>
+
                 </div>
                 <div class="col-md-6 pl-md-5 ftco-animate">
                     <h2 class="mb-4">Our Mission</h2>
@@ -75,10 +77,13 @@
                             <div class="d-flex flex-column align-items-center">
                                 <h3>Baltazar Mangaliman</h3>
                                 <span class="position text-center">Senior Audit Manager at KPMG UK</span>
+
+     
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
                     <div class="staff p-5">
                         <div class="container d-flex flex-column align-items-center">
@@ -102,6 +107,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
                     <div class="staff p-5">

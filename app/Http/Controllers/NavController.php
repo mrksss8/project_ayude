@@ -30,7 +30,12 @@ class NavController extends Controller
             case('events'):
                 return view('landing_pages.event');
                 break;
-
+            case('financing'):
+                return view('landing_pages.financing');
+                break;
+            case('projects') :
+                return view('landing_pages.projects');
+                break;
             case('news'):
                     return view('landing_pages.news');
             break;

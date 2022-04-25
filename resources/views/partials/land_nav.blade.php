@@ -13,8 +13,12 @@
           {{-- <li class="nav-item"><a href="{{ route('navigate', 'donation') }}" class="nav-link">Donate</a></li>
           <li class="nav-item"><a href="{{ route('navigate', 'blog') }}" class="nav-link">Blog</a></li>
           <li class="nav-item"><a href="{{ route('navigate', 'gallery') }}" class="nav-link">Gallery</a></li> --}}
-
-          <li class="nav-item"><a href="{{ route('navigate', 'project_operation') }}" class="nav-link">Project Operation</a></li>
+        <li class="nav-item dropdown"><a href="#" class="nav-link">Project Operation</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{{ route('navigate', 'financing') }}" class="nav-link">Financing & Targeted Areas</a></li>
+                <li><a class="dropdown-item" href="{{ route('navigate', 'projects') }}">Projects</a></li>
+            </ul>
+        </li>
           <li class="nav-item"><a href="{{ route('navigate', 'news') }}" class="nav-link">News</a></li>
           <li class="nav-item"><a href="{{ route('navigate', 'help_us') }}" class="nav-link">Help Us</a></li>
           <li class="nav-item"><a href="{{ route('navigate', 'contact') }}" class="nav-link">Contact Us</a></li>

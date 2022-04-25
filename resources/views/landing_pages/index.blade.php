@@ -1,7 +1,7 @@
 @extends('welcome')
 
 @section('content')
-    <div class="hero-wrap" style="background-image: url('images/bg_7.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap" style="background-image: url({{ asset('images/bg_7.jpg') }});" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -97,7 +97,7 @@
                     <div class="carousel-cause owl-carousel">
                         <div class="item">
                             <div class="cause-entry">
-                                <a href="#" class="img" style="background-image: url(images/cause-1.jpg);"></a>
+                                <a href="#" class="img" style="background-image: url({{ asset('images/cause-1.jpg') }});"></a>
                                 <div class="text p-3 p-md-4">
                                     <h3><a href="#">Clean water for the urban area</a></h3>
                                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
@@ -111,7 +111,7 @@
                         </div>
                         <div class="item">
                             <div class="cause-entry">
-                                <a href="#" class="img" style="background-image: url(images/cause-2.jpg);"></a>
+                                <a href="#" class="img" style="background-image: url({{ asset('images/cause-2.jpg') }});"></a>
                                 <div class="text p-3 p-md-4">
                                     <h3><a href="#">Clean water for the urban area</a></h3>
                                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
@@ -125,7 +125,7 @@
                         </div>
                         <div class="item">
                             <div class="cause-entry">
-                                <a href="#" class="img" style="background-image: url(images/cause-3.jpg);"></a>
+                                <a href="#" class="img" style="background-image: url({{ asset('images/cause-3.jpg') }});"></a>
                                 <div class="text p-3 p-md-4">
                                     <h3><a href="#">Clean water for the urban area</a></h3>
                                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
@@ -139,7 +139,7 @@
                         </div>
                         <div class="item">
                             <div class="cause-entry">
-                                <a href="#" class="img" style="background-image: url(images/cause-4.jpg);"></a>
+                                <a href="#" class="img" style="background-image: url({{ asset('images/cause-4.jpg') }});"></a>
                                 <div class="text p-3 p-md-4">
                                     <h3><a href="#">Clean water for the urban area</a></h3>
                                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
@@ -152,22 +152,22 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="cause-entry">
-                                <a href="#" class="img" style="background-image: url(images/cause-5.jpg);"></a>
-                                <div class="text p-3 p-md-4">
-                                    <h3><a href="#">Clean water for the urban area</a></h3>
-                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-                                    <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
-                        <div class="progress custom-progress-success">
-                          <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+                          <div class="cause-entry">
+                              <a href="#" class="img" style="background-image: url({{ asset('images/cause-5.jpg') }});"></a>
+                              <div class="text p-3 p-md-4">
+                                  <h3><a href="#">Clean water for the urban area</a></h3>
+                                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+                                  <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
+                                <div class="progress custom-progress-success">
+                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                            </div>
+                                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+                              </div>
+                          </div>
                         </div>
                         <div class="item">
                             <div class="cause-entry">
-                                <a href="#" class="img" style="background-image: url(images/cause-6.jpg);"></a>
+                                <a href="#" class="img" style="background-image: url({{ asset('images/cause-6.jpg') }});"></a>
                                 <div class="text p-3 p-md-4">
                                     <h3><a href="#">Clean water for the urban area</a></h3>
                                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
@@ -197,7 +197,7 @@
             <div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
                     <div class="d-flex mb-4">
-                        <div class="img" style="background-image: url(images/person_1.jpg);"></div>
+                        <div class="img" style="background-image: url({{ asset('images/person_1.jpg') }});"></div>
                         <div class="info ml-4">
                             <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
                             <span class="position">Donated Just now</span>
@@ -211,7 +211,7 @@
             <div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
                     <div class="d-flex mb-4">
-                        <div class="img" style="background-image: url(images/person_2.jpg);"></div>
+                        <div class="img" style="background-image: url({{ asset('images/person_2.jpg') }});"></div>
                         <div class="info ml-4">
                             <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
                             <span class="position">Donated Just now</span>
@@ -225,7 +225,7 @@
             <div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
                     <div class="d-flex mb-4">
-                        <div class="img" style="background-image: url(images/person_3.jpg);"></div>
+                        <div class="img" style="background-image: url({{ asset('images/person_3.jpg') }});"></div>
                         <div class="info ml-4">
                             <h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
                             <span class="position">Donated Just now</span>
@@ -242,46 +242,46 @@
 
     <section class="ftco-gallery">
         <div class="d-md-flex">
-            <a href="images/cause-2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-2.jpg);">
+            <a href="{{ asset('images/cause-2.jpg') }}" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/cause-2.jpg') }});">
                 <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search"></span>
                 </div>
             </a>
-            <a href="images/cause-3.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-3.jpg);">
+            <a href="{{ asset('images/cause-3.jpg') }}" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/cause-3.jpg') }});">
                 <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search"></span>
                 </div>
             </a>
-            <a href="images/cause-4.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-4.jpg);">
+            <a href="{{ asset('images/cause-4.jpg') }}" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/cause-4.jpg') }});">
                 <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search"></span>
                 </div>
             </a>
-            <a href="images/cause-5.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-5.jpg);">
+            <a href="{{ asset('images/cause-5.jpg') }}" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/cause-5.jpg') }});">
                 <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search"></span>
                 </div>
             </a>
         </div>
         <div class="d-md-flex">
-            <a href="images/cause-6.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-6.jpg);">
+            <a href="{{ asset('images/cause-6.jpg') }}" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/cause-6.jpg') }});">
                 <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search"></span>
                 </div>
             </a>
-            <a href="images/image_3.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/image_3.jpg);">
+            <a href="{{ asset('images/image_3.jpg') }}" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/image_3.jpg') }});">
                 <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search"></span>
                 </div>
             </a>
-            <a href="images/image_1.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/image_1.jpg);">
+            <a href="{{ asset('images/image_1.jpg') }}" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/image_1.jpg') }});">
                 <div class="icon d-flex justify-content-center align-items-center">
                     <span class="icon-search"></span>
                 </div>
             </a>
-            <a href="images/image_2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/image_2.jpg);">
+            <a href="{{ asset('images/image_2.jpg') }}" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/image_2.jpg') }});">
                 <div class="icon d-flex justify-content-center align-items-center">
-                    <span class="icon-search"></span>
+                  <span class="icon-search"></span>
                 </div>
             </a>
         </div>
@@ -298,7 +298,7 @@
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
               <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.html" class="block-20" style="background-image: url({{ asset('images/image_1.jpg') }});">
               </a>
               <div class="text p-4 d-block">
                   <div class="meta mb-3">
@@ -313,7 +313,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
               <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              <a href="blog-single.html" class="block-20" style="background-image: url({{ asset('images/image_2.jpg') }});">
               </a>
               <div class="text p-4 d-block">
                   <div class="meta mb-3">
@@ -328,7 +328,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
               <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              <a href="blog-single.html" class="block-20" style="background-image: url({{ asset('images/image_3.jpg') }});">
               </a>
               <div class="text p-4 d-block">
                   <div class="meta mb-3">
@@ -355,7 +355,7 @@
           <div class="row">
               <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry align-self-stretch">
-                <a href="blog-single.html" class="block-20" style="background-image: url('images/event-1.jpg');">
+                <a href="blog-single.html" class="block-20" style="background-image: url({{ asset('images/event-1.jpg') }});">
                 </a>
                 <div class="text p-4 d-block">
                     <div class="meta mb-3">
@@ -372,7 +372,7 @@
             </div>
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry align-self-stretch">
-                <a href="blog-single.html" class="block-20" style="background-image: url('images/event-2.jpg');">
+                <a href="blog-single.html" class="block-20" style="background-image: url({{ asset('images/event-2.jpg') }});">
                 </a>
                 <div class="text p-4 d-block">
                     <div class="meta mb-3">
@@ -389,10 +389,10 @@
             </div>
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry align-self-stretch">
-                <a href="blog-single.html" class="block-20" style="background-image: url('images/event-3.jpg');">
+                <a href="blog-single.html" class="block-20" style="background-image: url({{ asset('images/event-3.jpg') }});">
                 </a>
                 <div class="text p-4 d-block">
-                    <div class="meta mb-3">
+                  <div class="meta mb-3">
                     <div><a href="#">Sep. 10, 2018</a></div>
                     <div><a href="#">Admin</a></div>
                     <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
@@ -408,12 +408,12 @@
         </div>
     </section>
       
-    <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
+    <section class="ftco-section-3 img" style="background-image: url({{ asset('images/bg_3.jpg') }});">
       <div class="overlay"></div>
       <div class="container">
           <div class="row d-md-flex">
           <div class="col-md-6 d-flex ftco-animate">
-              <div class="img img-2 align-self-stretch" style="background-image: url(images/bg_4.jpg);"></div>
+              <div class="img img-2 align-self-stretch" style="background-image: url({{ asset('images/bg_4.jpg') }});"></div>
           </div>
           <div class="col-md-6 volunteer pl-md-5 ftco-animate">
               <h3 class="mb-3">Be a volunteer</h3>

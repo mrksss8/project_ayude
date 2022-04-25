@@ -12,7 +12,7 @@ class NavController extends Controller
             case('index'):
                 return view('landing_pages.index');
                 break;
-            case('about'):
+            case('landing_page_about'):
                 return view('landing_pages.about');
                 break;
             case('causes'):
@@ -29,6 +29,13 @@ class NavController extends Controller
                 break;
             case('events'):
                 return view('landing_pages.event');
+                break;
+
+            case('news'):
+                    return view('landing_pages.news');
+            break;
+            case('help_us'):
+                    return view('landing_pages.help_us');
                 break;
             case('contact'):
                 return view('landing_pages.contact');

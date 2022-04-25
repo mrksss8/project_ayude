@@ -12,7 +12,7 @@ class NavController extends Controller
             case('index'):
                 return view('landing_pages.index');
                 break;
-            case('landing_page_about'):
+            case('about'):
                 return view('landing_pages.about');
                 break;
             case('causes'):
@@ -30,18 +30,23 @@ class NavController extends Controller
             case('events'):
                 return view('landing_pages.event');
                 break;
-
             case('news'):
-                    return view('landing_pages.news');
-            break;
+                return view('landing_pages.news');
+                break;
             case('help_us'):
-                    return view('landing_pages.help_us');
+                return view('landing_pages.help_us');
                 break;
             case('contact'):
                 return view('landing_pages.contact');
                 break;
             case('blog-single'):
                 return view('landing_pages.blog-single');
+                break;
+            case('board'):
+                return view('landing_pages.board');
+                break;
+            case('history'):
+                return view('landing_pages.history');
                 break;
         }
     }

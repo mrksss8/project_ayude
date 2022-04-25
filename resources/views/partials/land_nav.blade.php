@@ -12,10 +12,7 @@
                 </li>
 
                 {{-- <li class="nav-item"><a href="{{ route('navigate', 'landing_page_about') }}" class="nav-link">About</a></li> --}}
-                {{-- <li class="nav-item"><a href="{{ route('navigate', 'causes') }}" class="nav-link">Causes</a></li> --}}
-                {{-- <li class="nav-item"><a href="{{ route('navigate', 'donation') }}" class="nav-link">Donate</a></li>
-          <li class="nav-item"><a href="{{ route('navigate', 'blog') }}" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="{{ route('navigate', 'gallery') }}" class="nav-link">Gallery</a></li> --}}
+            
 
                 <li class="nav-item btn-group">
                     <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
@@ -40,13 +37,19 @@
                         <a class="dropdown-item" href="{{ route('navigate', 'projects') }}">Projects</a>
                     </div>
                 </li>
-
+                
+                <li class="nav-item"><a href="{{ route('navigate', 'gallery') }}" class="nav-link">Gallery</a></li>
                 <li class="nav-item"><a href="{{ route('navigate', 'news') }}" class="nav-link">News</a>
                 </li>
                 <li class="nav-item"><a href="{{ route('navigate', 'help_us') }}" class="nav-link">Help
                         Us</a></li>
                 <li class="nav-item"><a href="{{ route('navigate', 'contact') }}" class="nav-link">Contact
                         Us</a></li>
+
+
+            {{-- <li class="nav-item"><a href="{{ route('navigate', 'causes') }}" class="nav-link">Causes</a></li> --}}
+            {{-- <li class="nav-item"><a href="{{ route('navigate', 'donation') }}" class="nav-link">Donate</a></li> --}}
+            {{-- <li class="nav-item"><a href="{{ route('navigate', 'blog') }}" class="nav-link">Blog</a></li> --}}
             </ul>
         </div>
     </div>

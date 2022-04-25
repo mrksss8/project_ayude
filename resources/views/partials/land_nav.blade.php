@@ -10,7 +10,7 @@
           <li class="nav-item btn-group">
             <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">About</a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="{{ route('navigate', 'about') }}">Mission & Vision</a>
+              <a class="dropdown-item" href="{{ route('navigate', 'landing_page_about') }}">Mission & Vision</a>
               <a class="dropdown-item" href="{{ route('navigate', 'history') }}">History</a>
               <a class="dropdown-item" href="{{ route('navigate', 'board') }}">Board</a>
             </div>

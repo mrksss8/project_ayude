@@ -28,14 +28,18 @@
                     </div>
                 </li>
 
-                <li class="nav-item dropdown"><a href="#" class="nav-link">Project Operation</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('navigate', 'financing') }}"
-                                class="nav-link">Financing & Targeted Areas</a></li>
-                        <li><a class="dropdown-item" href="{{ route('navigate', 'projects') }}">Projects</a></li>
-                    </ul>
-                </li>
 
+                <li class="nav-item btn-group">
+                    <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-expanded="false">Project Operation</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                       
+
+                        
+                        <a class="dropdown-item" href="{{ route('navigate', 'financing') }}">Financing & Targeted Areas</a>
+                        <a class="dropdown-item" href="{{ route('navigate', 'projects') }}">Projects</a>
+                    </div>
+                </li>
 
                 <li class="nav-item"><a href="{{ route('navigate', 'news') }}" class="nav-link">News</a>
                 </li>

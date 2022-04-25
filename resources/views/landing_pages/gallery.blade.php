@@ -1,7 +1,7 @@
 @extends('welcome')
 
 @section('content')
-    <div class="hero-wrap" style="background-image: url({{ asset('images/bg_2.jpg') }});" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -16,66 +16,66 @@
     <section class="ftco-section ftco-gallery">
         <div class="container">
             <div class="d-md-flex">
-                <a href="images/cause-2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/cause-2.jpg') }});">
+                <a href="images/cause-2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-2.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/cause-3.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/cause-3.jpg') }});">
+                <a href="images/cause-3.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-3.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/cause-4.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/cause-4.jpg') }});">
+                <a href="images/cause-4.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-4.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/cause-5.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/cause-5.jpg') }});">
-                    <div class="icon d-flex justify-content-center align-items-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
-            </div>
-            <div class="d-md-flex">
-                <a href="images/cause-6.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/cause-6.jpg') }});">
-                    <div class="icon d-flex justify-content-center align-items-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
-                <a href="images/image_3.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/image_3.jpg') }});">
-                    <div class="icon d-flex justify-content-center align-items-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
-                <a href="images/image_1.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/image_1.jpg') }});">
-                    <div class="icon d-flex justify-content-center align-items-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
-                <a href="images/image_2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/image_2.jpg') }});">
+                <a href="images/cause-5.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-5.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
             </div>
             <div class="d-md-flex">
-                <a href="images/event-1.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/event-1.jpg') }});">
+                <a href="images/cause-6.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/cause-6.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/event-2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/event-2.jpg') }});">
+                <a href="images/image_3.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/image_3.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/image_1.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/image_4.jpg') }});">
+                <a href="images/image_1.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/image_1.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
                 </a>
-                <a href="images/image_2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url({{ asset('images/event-4.jpg') }});">
+                <a href="images/image_2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/image_2.jpg);">
+                    <div class="icon d-flex justify-content-center align-items-center">
+                        <span class="icon-search"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="d-md-flex">
+                <a href="images/event-1.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/event-1.jpg);">
+                    <div class="icon d-flex justify-content-center align-items-center">
+                        <span class="icon-search"></span>
+                    </div>
+                </a>
+                <a href="images/event-2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/event-2.jpg);">
+                    <div class="icon d-flex justify-content-center align-items-center">
+                        <span class="icon-search"></span>
+                    </div>
+                </a>
+                <a href="images/image_1.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/image_4.jpg);">
+                    <div class="icon d-flex justify-content-center align-items-center">
+                        <span class="icon-search"></span>
+                    </div>
+                </a>
+                <a href="images/image_2.jpg" class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate" style="background-image: url(images/event-4.jpg);">
                     <div class="icon d-flex justify-content-center align-items-center">
                         <span class="icon-search"></span>
                     </div>
@@ -84,12 +84,12 @@
         </div>
     </section>
 
-    <section class="ftco-section-3 img" style="background-image: url({{ asset('images/bg_3.jpg') }});">
+    <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
         <div class="overlay"></div>
         <div class="container">
             <div class="row d-md-flex">
             <div class="col-md-6 d-flex ftco-animate">
-                <div class="img img-2 align-self-stretch" style="background-image: url({{ asset('images/bg_4.jpg') }});"></div>
+                <div class="img img-2 align-self-stretch" style="background-image: url(images/bg_4.jpg);"></div>
             </div>
             <div class="col-md-6 volunteer pl-md-5 ftco-animate">
                 <h3 class="mb-3">Be a volunteer</h3>

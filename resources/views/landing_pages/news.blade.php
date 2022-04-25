@@ -6,11 +6,9 @@
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
                 <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-                    <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span <h1
-                            class="text-primary mb-3 bread" style="font-size: 32px;"
-                            data-scrollax="properties: { translateY: '30%',}">Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit.</h1>
-                            {{-- class="mr-2"><a href="index.html">Home</a></span> <span>Event</span></p> --}}
+                    <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+                            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.</h1>
                 </div>
             </div>
         </div>
